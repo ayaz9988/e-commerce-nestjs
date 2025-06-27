@@ -33,3 +33,12 @@ $ yarn run test:e2e
 $ yarn run test:cov
 ```
 
+## Running migration script
+```bash
+$ ./migration.sh db/migration/name-of-migration
+```
+
+### give execution permission to the script
+```bash
+$ chmod +x ./migration.sh
+```
